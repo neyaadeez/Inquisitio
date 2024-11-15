@@ -1,0 +1,17 @@
+2024-11-10 10:15:32 INFO  User login successful for user_id=123
+2024-11-10 10:16:10 INFO  User search query: SELECT name FROM users WHERE id=5
+2024-11-10 10:16:45 ERROR Invalid login attempt for user_id=456
+2024-11-10 10:17:03 INFO  User search query: ' OR 1=1; --
+2024-11-10 10:18:12 INFO  Password reset request for user_id=789
+2024-11-10 10:19:05 ERROR Invalid input detected: DROP TABLE users; --
+2024-11-10 10:20:34 INFO  User search query: SELECT email, password FROM accounts WHERE email='admin@example.com' AND password='admin'
+2024-11-10 10:21:00 INFO  User profile updated successfully for user_id=123
+2024-11-10 10:22:15 WARNING Suspicious activity detected: ' OR '1'='1
+2024-11-10 10:23:50 INFO  User search query: SELECT * FROM orders WHERE order_id='12345'
+2024-11-10 10:24:32 INFO  Failed login attempt for user_id=1024
+2024-11-10 10:25:41 ERROR SQL syntax error near UNION SELECT * FROM users
+2024-11-10 10:26:30 INFO  User login successful for user_id=567
+2024-11-10 10:27:25 ERROR Invalid search input: '; DROP TABLE products; --
+2024-11-10 10:28:02 INFO  User logout for user_id=789
+2024-11-10 10:28:47 INFO  Failed login attempt for user_id=890
+
